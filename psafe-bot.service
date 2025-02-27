@@ -1,0 +1,16 @@
+[Unit]
+Description=PrivacySafe Bot (password generator)
+
+[Service]
+WorkingDirectory=/root/password-generator/
+ExecStart=/usr/local/bin/pnpm dev --host
+Type=simple
+Restart=always
+#User=nobody
+# Note Debian/Ubuntu uses 'nogroup', RHEL/Fedora uses 'nobody'
+#Group=nogroup
+Environment="PATH=/usr/bin:/usr/local/bin"
+Environment="NODE_ENV=production"
+
+[Install]
+WantedBy=multi-user.target

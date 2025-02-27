@@ -1,10 +1,4 @@
 [[redirects]]
-	from="https://jb-pwgen.netlify.com/*"
-	to="https://pwgen.joelb.dev/:splat"
-	status=301
-	force = true
-
-[[redirects]]
 	from="/*"
 	to="index.html"
 	status=200

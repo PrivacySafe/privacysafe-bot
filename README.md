@@ -39,4 +39,4 @@ Never send sensitive info about you or other users via direct message or email.
 ## License
 © 2024-present PrivacySafe Services LLC. This project is dedicated to ethical <a href="https://fsf.org" target="_blank" rel="noreferrer noopener">Free and Open Source Software</a> and <a href="https://oshwa.org" target="_blank" rel="noreferrer noopener">Open Source Hardware</a>. PrivacySafe® is a registered trademark.
 
-Released under the [MIT/Expat License](LICENSE). See [LICENSE](LICENSE) for more information. PrivacySafe Bot is modified from [password-generator](https://github.com/Kaliendo/AetherNote](https://github.com/murbar/password-generator) by [murbar](https://github.com/murbar).
+Released under the [MIT/Expat License](LICENSE). See [LICENSE](LICENSE) for more information. PrivacySafe Bot is modified from [password-generator](https://github.com/murbar/password-generator) by [murbar](https://github.com/murbar).

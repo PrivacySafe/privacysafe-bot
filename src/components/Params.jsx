@@ -7,12 +7,21 @@ import { media } from 'styles/helpers';
 import { useTransition, animated } from 'react-spring';
 
 const Styles = styled.div`
-  background: white;
+  background: #1D2D3C;
   margin: 0 -2rem;
   position: relative;
   transition: all 300ms;
+  color: #eee;
   p {
     font-size: 0.8em;
+    color: #eee;
+  }
+  a {
+    color: #6ec1e4;
+  }
+  a:hover {
+    color: #fb521f;
+    text-decoration: none;
   }
   ${media.tablet`
     border-radius: ${p => p.theme.borderRadius} ${p => p.theme.borderRadius} 0 0;

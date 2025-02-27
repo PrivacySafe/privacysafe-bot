@@ -46,9 +46,10 @@ export default function PassphraseParams({ values, onChange, isPwaMode }) {
     <Styles isPwaMode={isPwaMode}>
       {!isPwaMode && (
         <p>
-          Long passphrases are easy to remember (and type!) and are often just as secure
-          as a random string of characters, especially when they're longer than a password
-          would be. Makes a great choice for your "master" password.
+          Long passphrases are easier to remember and type than randomly-generated passwords and are often just as secure. {' '}
+          <a href="https://bitsontape.com/password-bot-security" target="_blank" title="Password Strategy">
+            Learn More…
+          </a>
         </p>
       )}
       <InputRow>

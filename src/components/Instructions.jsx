@@ -9,15 +9,5 @@ const Styles = styled.div`
 `;
 
 export default function Instructions() {
-  return (
-    <Styles>
-      <h2>How does this work?</h2>
-      <ol>
-        <li>Set your parameters</li>
-        <li>Choose a secret, any will do</li>
-        <li>Click to copy</li>
-        <li>Enjoy your day</li>
-      </ol>
-    </Styles>
-  );
+  return ("");
 }

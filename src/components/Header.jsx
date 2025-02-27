@@ -6,35 +6,47 @@ import { media } from 'styles/helpers';
 const Styles = styled.header`
   padding: 4rem 0 2rem;
   text-transform: uppercase;
+  h2 {
+    width: 152px;
+    height: 151px;
+    background-image:url('privacysafe_logo.png');
+    background-repeat: no-repeat;
+    float: center;
+    text-align: center;
+    margin: 0 auto 6px auto;
+    padding-bottom: 6px;
+  }
   h1 {
     line-height: 1;
-    margin: 0;
+    margin: 0 auto;
+    text-align: center;
+    color: #FB521F;
   }
   h1 > span {
-    transform: rotate(-3deg);
-    transform-origin: bottom left;
     display: block;
     white-space: nowrap;
     &:first-child {
       font-size: 1.2em;
+      color: #FB521F;
     }
     &:nth-child(2) {
-      font-size: 1em;
-    }
-    &:nth-child(3) {
       font-size: 0.8em;
+      background: -webkit-linear-gradient(#0D6EFF, #279591);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
     }
   }
   ${media.tablet`
     padding: 5rem 0 3rem;
     span {
       &:first-child {
+      color: #FB521F;
       }
       &:nth-child(2) {
-        font-size: 1.2em;
-      }
-      &:nth-child(3) {
-        font-size: 0.9em;
+      font-size: 0.9em;
+      background: -webkit-linear-gradient(#0D6EFF, #279591);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
       }
     }
   `}
@@ -61,21 +73,18 @@ const Styles = styled.header`
 export default function Header({ isPwaMode }) {
   return (
     <Styles isPwaMode={isPwaMode}>
+      <h2>
+      </h2>
       {!isPwaMode ? (
         <h1>
           <span>
             <SecretTween scrambleOnClick alphaNumeric>
-              Secure
+              PrivacySafe &nbsp;Bot 
             </SecretTween>
           </span>
           <span>
             <SecretTween scrambleOnClick alphaNumeric>
-              Password
-            </SecretTween>
-          </span>
-          <span>
-            <SecretTween scrambleOnClick alphaNumeric>
-              Generator
+              Password Generator
             </SecretTween>
           </span>
         </h1>
@@ -83,17 +92,12 @@ export default function Header({ isPwaMode }) {
         <h1>
           <span>
             <SecretTween scrambleOnClick alphaNumeric>
-              Secure
+              PrivacySafe &nbsp;Bot 
             </SecretTween>
           </span>
           <span>
             <SecretTween scrambleOnClick alphaNumeric>
-              PW
-            </SecretTween>
-          </span>
-          <span>
-            <SecretTween scrambleOnClick alphaNumeric>
-              Gen
+              Password Generator
             </SecretTween>
           </span>
         </h1>

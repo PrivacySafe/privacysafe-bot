@@ -21,19 +21,14 @@ const Footer = () => {
   return (
     <StyledContainer>
       <span className="v">v{config.version}</span>
-      <br />
-      Made with{' '}
-      <span role="img" aria-label="love">
-        <Heart />
-      </span>{' '}
-      by{' '}
-      <a href="https://joelb.dev" title="Joel Bartlett's portfolio">
-        Joel Bartlett
-      </a>
-      <br />{' '}
-      <a href="https://github.com/murbar/password-generator" title="See the code on GitHub">
-        Have a look at the code
-      </a>
+            <div className="container mx-auto text-center">
+                <p className="text-sm">
+                    <a href="https:\/\/psafe.ly/BbQTXH" target="_blank" style={{color: '#fb521f'}}>PrivacySafe</a>
+                    <span style={{color: '#ffffff'}}> | </span> <a href="https:\/\/psafe.ly/5kbQYU" target="_blank" style={{color: '#6ec1e4'}}>Source</a>
+                    <span style={{color: '#ffffff'}}> | </span> <a href="https:\/\/psafe.ly/bugs" id="contact" target="_blank" style={{color: '#6ec1e4'}}>Bugs?</a>
+                    <span style={{color: '#ffffff'}}> | </span> <a href="https:\/\/psafe.ly/7FNWKG" id="contact" target="_blank" style={{color: '#6ec1e4'}}>Terms of Use</a>
+                </p>
+            </div>
     </StyledContainer>
   );
 };

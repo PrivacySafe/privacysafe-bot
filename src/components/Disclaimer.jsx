@@ -2,25 +2,31 @@ import React from 'react';
 import styled from 'styled-components';
 
 const Styles = styled.p`
-  background: ${p => p.theme.colors.lightGray};
-  background: white;
+  background: #1D2D3C;
   padding: 2rem;
   font-size: 0.8em;
   border-radius: ${p => p.theme.borderRadius};
+  color: #eee;
+  a {
+    color: #6ec1e4;
+  }
+  a:hover {
+    color: #fb521f;
+    text-decoration: none;
+  }
 `;
 
 export default function Disclaimer() {
   return (
     <Styles>
-      Your secrets are generated on this device with a{' '}
+      Passwords and passphrases are generated on your device and YOUR DEVICE ONLY. PrivacySafe Bot uses a cryptographically strong {' '}
       <a
         href="https://developer.mozilla.org/en-US/docs/Web/API/Crypto/getRandomValues"
-        title="getRandomValues docs on Mozilla.org"
+        title="Documentation"
       >
-        cryptographically strong random number generator
-      </a>{' '}
-      and are not transmitted or persisted in any way. Just look out for nosy parkers and
-      close this browser tab when you're done.
+        random number generator
+      </a>.{' '}
+      Passwords and passphrases are NOT COPIED, transmitted, or persisted.
     </Styles>
   );
 }

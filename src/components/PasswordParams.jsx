@@ -45,13 +45,11 @@ export default function PasswordParams({ values, onChange, isPwaMode }) {
     <Styles isPwaMode={isPwaMode}>
       {!isPwaMode && (
         <p>
-          Good passwords are at least 12 characters long. If you can, include letters,
-          numbers, & symbols in random order. Make it as long as your account provider
-          will allow, you won’t be typing it anyway once you get a{' '}
-          <a href="#about" title="Good password hygiene">
-            password manager
+          Secure passwords are at least 12 characters long. Try to choose a large keyspace &ndash; include a mix of letters,
+          numbers, and symbols.{' '}
+          <a href="https://bitsontape.com/password-bot-security" target="_blank" title="Password Strategy">
+            Learn More…
           </a>
-          .
         </p>
       )}
       <InputRow>

@@ -9,6 +9,12 @@ const Styles = styled.div`
     width: 100%;
     text-align: center;
     justify-content: center;
+    background: #0D6EFF;
+    color: #fff;
+  }
+  button:hover {
+    background: #FB521F;
+    border-color: #FB521F;
   }
   svg {
     transform: rotate(35deg);
@@ -19,8 +25,8 @@ const Styles = styled.div`
 export default function ReGenButton({ onClick }) {
   return (
     <Styles>
-      <Button onClick={onClick} title="Generate new secrets (R)">
-        <RefreshIcon /> Regenerate Secrets
+      <Button onClick={onClick} title="Generate New Secrets">
+        <RefreshIcon /> Generate New Secrets
       </Button>
     </Styles>
   );

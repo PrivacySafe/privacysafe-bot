@@ -5,7 +5,7 @@ import SecretTween from 'components/common/SecretTween';
 import { media } from 'styles/helpers';
 
 const Styles = styled.div`
-  background: ${p => p.theme.colors.offBlack};
+  background: #0C2A59;
   color: ${p => p.theme.colors.offWhite};
   margin: 0 -2rem 1.5rem;
   padding: 2rem;
@@ -27,7 +27,7 @@ const SecretStyles = styled.div`
   `}
   line-height: 1.2;
   padding: 0 1rem;
-  background: hsla(0, 0%, 100%, 0.15);
+  background: #213E6D;
   border-radius: ${p => p.theme.borderRadius};
   position: relative;
   transition: all 300ms;
@@ -42,7 +42,7 @@ const SecretStyles = styled.div`
   }
   &:hover {
     cursor: copy;
-    background: hsla(0, 0%, 100%, 0.25);
+    background: #3A5379;
   }
   &:before {
     content: 'Copied!';

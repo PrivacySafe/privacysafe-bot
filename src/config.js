@@ -1,4 +1,4 @@
-const version = '2022.09.06';
+const version = '2025.02.26';
 
 const modes = {
   PW: 'password',
@@ -20,14 +20,14 @@ const initParams = {
 };
 
 const localStorageKeys = {
-  params: `pwgen-joeb-dev-params-${version}`,
-  mode: `pwgen-joeb-dev-mode-${version}`
+  params: `psafe-bot-dev-params-${version}`,
+  mode: `psafe-bot-dev-mode-${version}`
 };
 
 const strengthsEnum = {
-  OK: 'kinda weak',
-  GOOD: 'pretty decent',
-  STRONG: 'super strong'
+  OK: 'weak: get pwned',
+  GOOD: 'good: tough to crack',
+  STRONG: 'strong: secret agent tier'
 };
 
 export default {
@@ -36,5 +36,5 @@ export default {
   initParams,
   localStorageKeys,
   strengthsEnum,
-  GAPropertyId: 'UA-140727716-6'
+  GAPropertyId: ''
 };

@@ -28,8 +28,6 @@ const Styles = styled.div`
   ${p => p.isPwaMode && 'padding-bottom: 3rem;'}
 `;
 
-ReactGA.initialize(config.GAPropertyId);
-
 function App() {
   const { localStorageKeys, modes, initParams } = config;
   const [params, setParams] = useLocalStorageState(localStorageKeys.params, initParams);

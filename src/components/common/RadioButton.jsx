@@ -33,16 +33,16 @@ const Styles = styled.div`
     left: 0;
     height: 1.5em;
     width: 1.5em;
-    background-color: white;
+    background-color: #0C2A59;
     border-radius: 50%;
-    border: 0.1rem solid ${offBlack};
+    border: 0.1rem solid ${blue};
     transition: all 300ms;
   }
   label:hover input ~ span {
-    border: 0.1rem solid ${blue};
+    border: 0.1rem solid #eee;
   }
   label input:checked ~ span {
-    background-color: ${inputHighlightColor};
+    background-color: #0D6EFF;
     border: 0.1rem solid transparent;
   }
   /* indicator */

@@ -25,15 +25,15 @@ const Styles = styled.div`
     appearance: none;
     height: 0.5em;
     padding: 0.5rem;
-    background: white;
+    background: #0C2A59;
     outline: none;
     transition: all 300ms;
     border-radius: ${p => p.theme.borderRadius};
-    border: 0.1rem solid ${offBlack};
+    border: 0.1rem solid ${blue};
     font-size: 1em;
   }
   input:hover {
-    border: 0.1rem solid ${blue};
+    border: 0.1rem solid #eee;
   }
   /* Chrome, Opera, Safari, Edge */
   input::-webkit-slider-thumb {
@@ -42,7 +42,7 @@ const Styles = styled.div`
     height: 1.5em;
     border-radius: ${p => p.theme.borderRadius};
     border-radius: 50%;
-    background: ${inputHighlightColor};
+    background: #0D6EFF;
     cursor: pointer;
     border: none;
   }
@@ -51,7 +51,7 @@ const Styles = styled.div`
     width: 1.5em;
     height: 1.5em;
     border-radius: 50%;
-    background: ${inputHighlightColor};
+    background: #0D6EFF;
     cursor: pointer;
     border: none;
   }

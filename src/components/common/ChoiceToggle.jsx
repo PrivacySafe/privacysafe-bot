@@ -13,23 +13,25 @@ const Styles = styled.div`
     font-family: ${p => p.theme.fontFamily};
     font-weight: bold;
     border: none;
-    background: none;
+    background: #0E2132;
     margin: 0;
     padding: 1rem 1.5rem;
     cursor: pointer;
     border-radius: ${p => p.theme.borderRadius} ${p => p.theme.borderRadius} 0 0;
+    color: #ccc;
   }
   button:hover {
-    background: hsla(0, 0%, 94%, 0.5);
+    background: #3F4F5F;
   }
   button:focus {
     outline: none;
   }
   button.selected {
-    background: white;
+    background: #1D2D3C;
+    color: #45DA64;
   }
   button.selected:hover {
-    background: white;
+    background: #1D2D3C;
     cursor: default;
   }
   ${media.phone`

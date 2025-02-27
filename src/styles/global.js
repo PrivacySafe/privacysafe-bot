@@ -15,11 +15,11 @@ export default createGlobalStyle`
     padding: 0 2rem;
     background: linear-gradient(
       174deg,
-      ${p => p.theme.colors.paleYellow},
-      ${p => p.theme.colors.paleYellow} 45rem, 
-      ${p => p.theme.colors.offWhite} 45rem,
-      ${p => p.theme.colors.offWhite}
-    ), ${p => p.theme.colors.offWhite};
+      ${p => p.theme.colors.lightBlue},
+      ${p => p.theme.colors.lightBlue} 45rem, 
+      ${p => p.theme.colors.lightBlue} 45rem,
+      ${p => p.theme.colors.lightBlue}
+    ), ${p => p.theme.colors.lightBlue};
     color: ${p => p.theme.colors.offBlack};
     font-family: ${p => p.theme.fontFamily};
     font-size: 1.8rem;

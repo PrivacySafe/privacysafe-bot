@@ -13,6 +13,8 @@ const colors = {
   paleYellow: 'hsl(60, 100%, 75%)',
   lightGray: 'hsl(0, 0%, 85%)',
   darkGray: 'hsl(0, 0%, 20%)',
+  lightBlue: 'hsl(214, 38%, 58%)',
+  
 };
 
 const meterColors = {
@@ -30,8 +32,8 @@ const theme = {
   meterColors,
   inputBorderRadius: `0.5rem`,
   inputHighlightColor: colors.offBlack,
-  fontFamily: "'Roboto Mono', sans-serif",
-  fontFamilyHeadings: "'Contrail One', sans-serif",
+  fontFamily: "'Roboto Mono', 'Arial', sans-serif",
+  fontFamilyHeadings: "'Contrail One', 'Arial', sans-serif",
   borderRadius: '0.2rem',
   media,
 };

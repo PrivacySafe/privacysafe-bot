@@ -2,7 +2,7 @@
   <a href="https://privacysafe.bot"><img src="public/privacysafe_logo.svg" width="300" height="300" /></a>
 </p>
 
-# PrivacySafe Bot: Secure Password & Passphrase Generator
+# PrivacySafe Bot: Password & Passphrase Generator
 
 PrivacySafe Bot is a privacy-focused, secure password and passphrase generator designed to help you create strong, memorable secrets. All data generation is done **entirely on your device**, using a cryptographically strong random number generator. No data is copied, transmitted, or stored on any server, ensuring your secrets remain private.
 

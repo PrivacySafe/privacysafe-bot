@@ -1,0 +1,53 @@
+/* noscript.css */
+/* Minimal, safe defaults for no-JS environments */
+
+:root {
+  color-scheme: light dark;
+}
+
+/* Hide JS only UI by default in no-JS mode */
+.js-only {
+  display: none !important;
+}
+
+/* Show no-JS alternatives */
+.no-js-only {
+  display: block !important;
+}
+
+/* Optional: style a top notice banner */
+.noscript-banner {
+  display: block;
+  padding: 12px 14px;
+  margin: 12px 0;
+  border: 1px solid currentColor;
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0.06);
+}
+
+.noscript-banner strong {
+  font-weight: 700;
+}
+
+/* Make interactive looking things not misleading */
+button,
+[role="button"],
+a.button,
+.button {
+  cursor: default;
+}
+
+/* If your layout depends on JS to unhide content, force it visible */
+[data-js-hidden="true"] {
+  display: block !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+}
+
+/* Reduce motion in case JS normally handles prefers-reduced-motion */
+* {
+  scroll-behavior: auto;
+  animation: none !important;
+  transition: none !important;
+}
+
